@@ -41,15 +41,15 @@ Then make sure to enable the GL driver for the Pi. This only works on the deskto
 
 Compile with this command:
 
-`g++ wx-robot.cpp `wx-config --cxxflags --libs` -o wx-robot -lpigpio -lrt`
+`g++ wx-robot.cpp ``wx-config --cxxflags --libs` `-o wx-robot -lpigpio -lrt`
 
 Then run as sudo with this command:
 
-sudo ./wx-robot
+`sudo ./wx-robot`
 
 Then the gui should appear as shown below:
 
-GUI
+![GUI](https://github.com/sentairanger/wxWidgets-Robot-Control/blob/main/wx-robot.png)
 
 
 
